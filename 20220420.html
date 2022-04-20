@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>자바스크립트 수업</h1>
+        <div class="section_title">
+            오늘 배우는거
+        </div>
+        <div class="section_box">
+            <div class="section_subtitle">논리 연산자</div>
+            <p><pre>a < b</pre></p>
+            <p><div class="content">a가 b보다 작다.</div></p>
+            <p><pre>a > b</pre></p>
+            <p><div class="content">a가 b보다 크다.</div></p>
+            <p><pre>a == b</pre></p>
+            <p><div class="content">a와 b가 같은지(타입 비교 X)</div></p>
+            <p><pre>a === b</pre></p>
+            <p><div class="content">a와 b가 같은지(타입 비교 O)</div></p>
+
+        </div>
+        <div class="section_box">
+            <div class="section_subtitle">산술 연산자</div>
+            <p><pre>a + b</pre></p>
+            <p><div class="content">a 더하기 b</div></p>
+            <p><pre>a - b</pre></p>
+            <p><div class="content">a에서 b 빼기</div></p>
+            <p><pre>a / b</pre></p>
+            <p><div class="content">a 나누기 b</div></p>
+            <p><pre>a * b</pre></p>
+            <p><div class="content">a 곱하기 b</div></p>
+            <p><pre>a % b</pre></p>
+            <p><div class="content">a에서 b를 나눈 나머지</div></p>
+            <p><pre>a ** b</pre></p>
+            <p><div class="content">a의 b승</div></p>
+
+        </div>
+        <div class="section_box">
+            <div class="section_subtitle">대입 연산자</div>
+            <p><pre>a += b</pre></p>
+            <p><div class="content">a는 a에 b를 더한 값을 대입</div></p>
+            <p><pre>a -= b</pre></p>
+            <p><div class="content">a는 a에 b를 뺀 값을 대입</div></p>
+            <p><pre>a *= b</pre></p>
+            <p><div class="content">a는 a에 b를 곱한 값을 대입</div></p>
+            <p><pre>a /= b</pre></p>
+            <p><div class="content">a는 a를 b로 나눈 값을 대입</div></p>
+
+        </div>
+        <div class="section_box">
+            <div class="section_subtitle">배열</div>
+            <p><pre>new Array()</pre></p>
+            <p><div class="content">새 빈 배열 생성</div></p>
+            <p><pre>array.push(item)</pre></p>
+            <p><div class="content">array의 마지막 index에 item 원소를 추가</div></p>
+            <p><pre>array.unshift(item)</pre></p>
+            <p><div class="content">array의 첫번재 index에 item 원소를 추가</div></p>
+            <p><pre>array.pop()</pre></p>
+            <p><div class="content">array의 마지막 원소를 제거</div></p>
+
+        </div>
+    </div>
+
+    <style type="text/css">
+
+        body {
+            width: 100vw;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: Pretendard, sans-serif;
+        }
+        .container {
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: auto;
+        }
+        .section_box {
+            margin-top: 40px;
+            width: 100%;
+            height: auto;
+            padding: 20px 30px;
+            box-shadow: 0px 10px 40px #ebebeb;
+            border-radius: 10px;
+        }
+        .section_subtitle {
+            font-weight: 600;
+            font-size: 20px;
+
+        }
+        .section_title{ 
+            margin-left: 30px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        pre {
+            width: auto;
+            height: 30px;
+            background-color: rgb(37, 40, 56);
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Roboto';
+            border-radius: 5px;
+        }
+    </style>
+</body>
+</html>
