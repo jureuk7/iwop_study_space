@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>자기소개</title>
+    <link rel="stylesheet" href="app.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-title">자기소개</div>
+      <hr class="underline-1" />
+      <div class="margin-1">
+        <div class="title-3">목차</div>
+        <ul>
+          <li>
+            <a href="#persinfo">
+              <div class="title-4">인적사항</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tmi">
+              <div class="title-4">TMI</div>
+            </a>
+          </li>
+          <li>
+            <a href="#fav">
+              <div class="title-4">좋아하는 것</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <form action="test/testApi.jsp">
+        <div class="margin-1"></div>
+        <div class="form-box" id="persinfo">
+          <div class="form-title">인적사항</div>
+          <div class="form-content">
+            <div class="form-wrapper">
+              <div class="form-input-name">이름</div>
+              <input
+                type="text"
+                placeholder="이름을 입력해주세요."
+                name="name"
+              />
+              <div class="form-input-name">학번</div>
+              <input
+                type="text"
+                placeholder="학번을 입력해주세요."
+                name="studId"
+              />
+              <div class="form-input-name">학과</div>
+              <select name="department">
+                <option value="sw">소프트웨어과</option>
+                <option value="infosec">정보보호과</option>
+                <option value="cd">콘텐츠디자인과</option>
+                <option value="management">IT경영과</option>
+              </select>
+
+              <div class="form-input-name">이메일</div>
+              <input
+                type="email"
+                placeholder="이메일을 입력해주세요."
+                name="email"
+              />
+              <div class="form-input-name">생년월일</div>
+              <input
+                type="date"
+                placeholder="이름을 입력해주세요."
+                name="name"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="margin-1"></div>
+        <div class="form-box" id="tmi">
+          <div class="form-title">TMI</div>
+          <div class="form-content">
+            <div class="form-wrapper">
+              <div class="form-input-name">민트초코 호불호</div>
+              <select name="mincho">
+                <option value="like">호</option>
+                <option value="dislike">불호</option>
+              </select>
+              <div class="form-input-name">나는 이과?문과?</div>
+              <select name="division">
+                <option value="word">문과</option>
+                <option value="math">이과</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="margin-1"></div>
+        <div class="form-box" id="fav">
+          <div class="form-title">좋아하는 것</div>
+          <div class="form-content">
+            <div class="form-wrapper">
+              <div class="form-input-name">좋아하는 노래</div>
+              <div class="margin-2"></div>
+              <iframe
+                style="border-radius: 12px"
+                src="https://open.spotify.com/embed/album/0b2gjEKztBkBBhQ16bM1JS?utm_source=generator"
+                width="100%"
+                height="80"
+                frameborder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              ></iframe>
+              <div class="form-input-name">좋아하는 영화</div>
+              <div class="margin-2"></div>
+              <iframe
+                width="100%"
+                src="https://www.youtube.com/embed/ftihf7Mwrf4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="form-input-name">좋아하는 드라마</div>
+              <div class="margin-2"></div>
+              <a href="http://program.tving.com/tvn/hoteldelluna">
+                <img
+                  src="https://cdn.entermedia.co.kr/news/photo/202006/12211_28900_5625.jpg"
+                  alt="호텔 델루나"
+                  width="100%"
+              /></a>
+              <div class="form-input-name">좋아하는 음식</div>
+              <div class="margin-2"></div>
+              <ul class="ul-1">
+                <li>떡볶이</li>
+                <li>냉면</li>
+                <li>쫄면</li>
+                <li>민트초코 아이스크림</li>
+                <li>비빔국수</li>
+                <li>불닭</li>
+              </ul>
+              <div class="form-input-name">좋아하는 게임</div>
+              <input type="text" placeholder="테트리스" name="favgame" />
+            </div>
+          </div>
+        </div>
+        <input type="submit" />
+      </form>
+      <div class="margin-1">
+        <div class="button-2">
+          <a href="index.html">메인 화면으로 돌아가기</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
